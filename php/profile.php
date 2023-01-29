@@ -4,6 +4,8 @@ $con = new MongoDB\Client("mongodb+srv://profile:profile@cluster0.7e1ierx.mongod
 
 echo " Welcome ";
 echo  $_POST['name'] . '<br>';
+echo  $_POST['mobile'] . '<br>';
+echo  $_POST['country'] . '<br>';
 
 require 'vendor/autoload.php';
 $redis = new Predis\Client();
@@ -27,8 +29,8 @@ $temp = '';
 $temp .= $_POST['mobile'] . '<br>' . ' ' . $_POST['country'] . '<br>';
 
 $redis->set('profile', $temp);
-echo $cachedEntry;
-echo "To confirm your profile update:" . '<br>';
+// echo $cachedEntry;
+echo "To update your profile:" . '<br>';
 exit();
    } 
    else{
