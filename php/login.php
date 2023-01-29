@@ -1,4 +1,5 @@
 <?php
+   session_start();
 $email = $_POST['email'];
 $password = $_POST['password'];
 
@@ -29,13 +30,10 @@ if($num == 0)
 {
     echo "Incorrect credentials";
 }
-
 else
+if($email & $password)
 {
-
-    session_start();
     $_SESSION['id'] = $id;
-   
     echo " Id : ";
     echo $_SESSION['id'] ;
     
@@ -43,7 +41,14 @@ else
     $_SESSION['email'] = $email;
     echo " Email : "; 
     echo $_SESSION['email'];
-   
+
+    echo "<script>window.location.href='http://localhost/developers/profile.html';</script>";
+}
+
+else
+{
+
+    echo "<script>window.location.href='http://localhost/developers/login.html';</script>";
 
 }
 
