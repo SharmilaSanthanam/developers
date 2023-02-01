@@ -7,7 +7,7 @@ $(document).ready(function () {
 
         $.ajax({
             method: "post",
-            url: "https://attic-substitutes.000webhostapp.com/php/login.php",
+            url: "../php/login.php",
             data: data,
             success: function (data) {
                 $("#msg").html(data);
