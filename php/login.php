@@ -42,13 +42,13 @@ if($email & $password)
     echo " Email : "; 
     echo $_SESSION['email'];
 
-    echo "<script>window.location.href='http://localhost/developers/profile.html';</script>";
+    echo "<script>window.location.href='https://profilewithphp.netlify.app/profile.html';</script>";
 }
 
 else
 {
 
-    echo "<script>window.location.href='http://localhost/developers/login.html';</script>";
+    echo "<script>window.location.href='https://profilewithphp.netlify.app/login.html';</script>";
 
 }
 
