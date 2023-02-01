@@ -6,8 +6,9 @@ $(document).ready(function () {
         var data = "email=" + email + "&password=" + password;
 
         $.ajax({
-            method: "post",
+           
             url: "https://attic-substitutes.000webhostapp.com/php/login.php",
+             method: "post",
             data: data,
             success: function (data) {
                 $("#msg").html(data);
