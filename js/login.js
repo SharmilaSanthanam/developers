@@ -7,7 +7,7 @@ $(document).ready(function () {
 
         $.ajax({
             method: "post",
-            url: "http://localhost/developers/php/login.php",
+            url: "https://profilewithphp.netlify.app/login.php",
             data: data,
             success: function (data) {
                 $("#msg").html(data);
