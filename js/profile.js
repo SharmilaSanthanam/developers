@@ -12,9 +12,9 @@ $(document).ready(function (){
         }
         else{
             $.ajax({
-                method: 'post',
-                url: 'https://profilewithphp.netlify.app/php/profile.php',
-               
+              
+                url: 'https://attic-substitutes.000webhostapp.com/php/profile.php',
+                 method: 'post',
                 data:
                                 {
                                     name:name,
