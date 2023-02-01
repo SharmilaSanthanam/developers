@@ -11,7 +11,7 @@ $(document).ready(function (){
         }
         else{
             $.ajax({
-                url: 'https://profilewithphp.netlify.app/php/register.php',
+                url: 'https://attic-substitutes.000webhostapp.com/php/register.php',
                 method: 'post',
                 data:
                                 {
