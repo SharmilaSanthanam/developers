@@ -1,6 +1,6 @@
  <?php
 require_once __DIR__ . '/vendor/autoload.php';
-$con = new MongoDB\Client("mongodb+srv://profile:profile@cluster0.7e1ierx.mongodb.net/?retryWrites=true&w=majority");
+$con = new MongoDB\Driver\Manager("mongodb+srv://profile:profile@cluster0.7e1ierx.mongodb.net/?retryWrites=true&w=majority");
 
 echo " Welcome ";
 echo  $_POST['name'] . '<br>';
