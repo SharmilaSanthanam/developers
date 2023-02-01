@@ -13,7 +13,7 @@ $(document).ready(function (){
         else{
             $.ajax({
                 method: 'post',
-                url: 'http://localhost/developers/php/profile.php',
+                url: 'https://profilewithphp.netlify.app/php/profile.php',
                
                 data:
                                 {
