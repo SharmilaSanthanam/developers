@@ -11,7 +11,7 @@ if (strlen($_POST["password"]) < 6) {
     die("Password must be at least 6 characters");
 }
 
-$connection=mysqli_connect("sql12.freesqldatabase.com", "sql12593960", "67xMjgJv3s", "sql12593960");
+$connection=mysqli_connect("localhost", "id20235004_sql12593960", "1vxc_@^[4p>jcs>N", "id20235004_profile");
 // $connection=mysqli_connect('localhost','root','','login');
 
 if($connection)
