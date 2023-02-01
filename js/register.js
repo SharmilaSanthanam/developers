@@ -11,7 +11,7 @@ $(document).ready(function (){
         }
         else{
             $.ajax({
-                url: 'http://localhost/developers/php/register.php',
+                url: 'https://profilewithphp.netlify.app/php/register.php',
                 method: 'post',
                 data:
                                 {
@@ -25,7 +25,7 @@ $(document).ready(function (){
                         // swal("SUCCESS", "User Added Successfully","success").then(function(p){
                         //     location.href="login.html";
                         // })
-                        location.href='http://localhost/developers/login.html';
+                        location.href='https://profilewithphp.netlify.app/login.html';
                     }
                 }
     
