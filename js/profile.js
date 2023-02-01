@@ -38,6 +38,6 @@ $(document).ready(function (){
             e.preventDefault();
 localStorage.getItem("userdata");
 localStorage.removeItem("userdata");
-location.href='https://profilewithphp.netlify.app/index.html';
+location.href='../index.html';
         })
     })
