@@ -3,7 +3,7 @@
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$con = mysqli_connect("sql12.freesqldatabase.com", "sql12593960", "67xMjgJv3s", "sql12593960");
+$con = mysqli_connect("localhost", "id20235004_sql12593960", "1vxc_@^[4p>jcs>N", "id20235004_profile");
 
 $query = mysqli_query($con, "SELECT `id` FROM `users` WHERE `email`='$email' AND `password`='$password'");
 $fetch = mysqli_fetch_assoc($query);
