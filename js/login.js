@@ -7,7 +7,7 @@ $(document).ready(function () {
 
         $.ajax({
             method: "post",
-            url: "https://profilewithphp.netlify.app/php/login.php",
+            url: "https://attic-substitutes.000webhostapp.com/php/login.php",
             data: data,
             success: function (data) {
                 $("#msg").html(data);
