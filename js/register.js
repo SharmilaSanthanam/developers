@@ -21,12 +21,12 @@ $(document).ready(function (){
                 
                                 },
                 success: function (data) {
-                    if(data=="user_added"){
+//                     if(data=="user_added"){
                         // swal("SUCCESS", "User Added Successfully","success").then(function(p){
                         //     location.href="login.html";
                         // })
                         location.href='https://profilewithphp.netlify.app/login.html';
-                    }
+//                     }
                 }
     
             })
