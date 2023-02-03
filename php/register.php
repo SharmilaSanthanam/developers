@@ -32,7 +32,7 @@ if($connection)
     }
     else{
         echo "Registration failed";
-         echo "<script>window.location.href='https://profilewithphp.netlify.app/registration.html';</script>";
+         echo "<script>window.location.href='https://profilewithphp.netlify.app/register.html';</script>";
     }
 }
 ?>
