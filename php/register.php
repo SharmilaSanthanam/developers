@@ -27,10 +27,12 @@ if($connection)
     if($results)
     {
         echo "Registered successfully";
+        echo "<script>window.location.href='https://profilewithphp.netlify.app/login.html';</script>";
        
     }
     else{
         echo "Registration failed";
+         echo "<script>window.location.href='https://profilewithphp.netlify.app/registration.html';</script>";
     }
 }
 ?>
